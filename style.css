@@ -1,5 +1,5 @@
 .container {
-    width: 60%;
+    width: 70%;
     margin: 30px auto;
     padding: 30px;
     border-radius: 30px;
@@ -27,4 +27,19 @@
 .box-logo h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.
+.nav {
+    width: 91%;
+    height: 40px;
+    margin: 30px auto;
+    display: flex;
+    align-content: center;
+    align-items: stretch;
+}
+.nav button {
+    width: 12.5%;
+    height: 40px;
+    border-collapse: collapse;
+    border: 1px solid rgb(173, 167, 167);
+    background-color: rgb(121, 117, 117);
+    color: rgb(184, 34, 34);  
+}
