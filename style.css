@@ -1,4 +1,5 @@
 .container {
+    overflow: hidden;
     width: 70%;
     margin: 30px auto;
     padding: 30px;
@@ -54,8 +55,9 @@
     transform: translateY(8px);
 }
 [class^="box-"] {
+    float: left;
     margin: 10px auto;
-    width: 90%;
+    width: 840px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
@@ -77,4 +79,36 @@
 }
 .article p {
     font-size: 20px;
+}
+.content {
+    width: 90%;
+    overflow: hidden;
+    margin: 40px auto;
+}
+.corusel {
+    width: 6720px;
+}
+.a-1 {
+    animation: move1 3s 150ms 1 forwards;
+}
+.a-2 {
+    animation: move2 3s 150ms 1 forwards;
+}
+.a-3 {
+    animation: move3 3s 150ms 1 forwards;
+}
+.a-4 {
+    animation: move4 3s 150ms 1 forwards;
+}
+.a-5 {
+    animation: move5 3s 150ms 1 forwards;
+}
+.a-6 {
+    animation: move6 3s 150ms 1 forwards;
+}
+.a-7 {
+    animation: move7 3s 150ms 1 forwards;
+}
+.a-8 {
+    animation: move8 3s 150ms 1 forwards;
 }
